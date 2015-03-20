@@ -1,0 +1,63 @@
+"Test.lc"
+
+(assign this "thiisjfisjodfasdfasdflasdlfjasa  %^&*()[[]sdjkljlksljasdklfjasdf;sdlfsjkskldjfkljsjklsjlkfsljkfjklsasdfsfaa")
+
+
+(assign test_struct (struct "hello" (+ 3 2) "world" "check"))
+(intprint (arrow (struct 1 2 3) 0))
+
+(assign x 1)
+(function (modify x) (assign x 0))
+(intprint x)
+
+(assign i 6)
+(function (modifys y) (assign i 7))
+(intprint i)
+
+None
+
+(sequence 2)
+(sequence 4 "good day mate")"hello"
+
+(function (funcy) "body")
+
+(function (bubble butt) (sequence (assign leet (struct "pro" 1337 (bubble butt))) (assign another (struct (+ 3 2) "hi")) (bubble butt) (bubble butt) (arrow leet 2))) 
+
+"Illegal sequence?"
+(function (lotta_sequences x) 
+	(sequence (sequence (assign np (struct 1 2 3)) (assign meepo 0) (assign dk (+ meepo 1))) (assign wr 1) (+ (+ (+ meepo dk) wr )x)))
+
+(assign wordy "word")
+( assign n 3)
+( function ( fib n )
+	( if ( and n ( - n 1)) (+ ( fib ( - n 1)) ( fib ( - n 2))) n ))
+( intprint ( fib 6))
+
+(function (x arg) (+ 2 arg))
+
+(function (shitty x) x)
+
+(function (recurse x) (recurse (+ x 1)))
+
+
+(+ (/ (* (- 4 2) (- 4 None)) (/ (- 8 3) (- 5 1))) (/ (* (- 10 2) (- 7 3)) (/ (- 9 3) (- 7 1))))
+
+(assign abc 2)
+(+ None 2)
+(function (hello arg1 arg2) (assign pop 2))
+
+(for (assign n 0) (lt n 2) (+ n 1) (intprint n))
+
+(intprint n)
+
+(assign t (struct 1 2))
+
+(assign (arrow t 0) 4)
+
+(if 0 1 2)
+
+
+abc
+
+
+(+ (+ (+ 2 3) (- 3 2)) 4)
